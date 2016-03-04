@@ -1,16 +1,20 @@
 /* All style should go in this document. */
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #E6F1FB;
+	color: #123;
+	text-shadow: 0px 1px #fff;
+}
 #header {
 	padding: 8px;
 	width: 50%;
 	margin: auto;
-	background-color: #222;
-	color: #ddd;
 }
-
 #content {
-	padding: 16px;
-	width: 40%;
+	padding: 0 10%;
+	width: 45%;
 	margin: auto;
-	background-color: #333;
-	color: #eee;
+}
+h2.section {
+	margin-left: -16px;
 }
