@@ -18,3 +18,14 @@ body {
 h2.section {
 	margin-left: -16px;
 }
+img.center {
+	display: block;
+	margin: 0 auto;
+}
+img.round {
+	border-radius: 50%;
+}
+.center {
+	text-align: center;
+
+}
