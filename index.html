@@ -5,11 +5,12 @@
         <title>Nicholas Bittar</title>
         <link rel="stylesheet" href="css/style.css">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-        <script src="js/"></script>
+        <!--<script src="js/"></script>-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div id="header">
-		<img class="center round" src="res/face-square.jpg" width="200px" align="middle" />
+		<img class="center round" src="res/face-square.jpg" align="middle" />
         <h1 class="center">Nicholas Bittar</h1>
         <h4 class="center">(203) 893-1994 - bittarnicholas@gmail.com</h4>
         <hr>
@@ -19,6 +20,7 @@
         	<h2 class="section">About Me</h2>
         	<p>I have been very interested in computers since I was young.  My passion has grown exponentially since then as I finish my time studying computer science in a university.  I regularly spend my free time reading about new and upcoming technologies.  I like to be informed about many different areas of computer science from cryptology to software design, web based projects to computer architecture, I appreciate most topics related to computers.</p>
         </div>
+        <hr class="secDivider">
         <div>
         	<h2 class="section">Education</h2>
         	<p>I am graduating at the end of Spring 2016 from Southern Connecticut State University with a Bachelor's degree in Computer Science and a minor in mathematics.</p>
@@ -29,22 +31,44 @@
         </div>
         <div>
         	<h2 class="section">Skill Set</h2>
-        	<p>	Programming Languages:  Java, C#, PHP.<br>
-        		Scripting Languages: JavaScript, LUA.<br>
-        		Markup Languages:  HTML, CSS.<br>
-        		Databases:  SQL, MS Access.</p>
+        	Programming Languages:  
+        			<div class="indent">Java, C#, PHP</div>
+        		<br>
+        		Scripting Languages: 
+        			<div class="indent">JavaScript, LUA</div>
+        			<br>
+        		Markup Languages:  
+        			<div class="indent">HTML, CSS</div>
+        			<br>
+        		Databases:  
+        			<div class="indent">SQL, MS Access</div>
 
         </div>
         <div>
         	<h2 class="section">Projects</h2>
         	<h3>3-D Graphics Engine</h3>
+        	<img class="projectImg" src="res/3dgraphics.png" onclick="enlarge(this)" />
         	<p>In CSC 443 - Computer Graphics I created my own 3-D graphics engine from scratch for my final project.  It was written in Java and was able to display a rotating 3-D object's (such as a cube) wireframe and faces and I also applied Phong's lighting equation to the model to simulate a light source.</p>
         	<h3>Tic-Tac-Toe</h3>
+        	<img class="projectImg" src="res/tictactoe.png" onclick="enlarge(this)" />
         	<p>In my free time, for practice, I coded the classic game Tic-Tac-Toe in Java.  It uses graphics and images I created for it to make the interface instead of using Java's provided elements such as JButtons.</p>
         	<h3>Connect Four</h3>
+        	<img class="projectImg" src="res/connectfour.png" onclick="enlarge(this)" />
         	<p>I also created Connect Four in Java, created similarily to my Tic-Tac-Toe game featured hand made graphics and interface elements.  The most difficult part of coding this game was coding the check if a player has won.</p>
-
         </div>
         </div>
     </body>
+    <script>
+    function enlarge(img)
+    {
+    	if(img.style.width != "90%")
+    	{
+    		img.style.width = "90%";
+    	}
+    	else
+    	{
+    		img.style.width = "40%";
+    	}
+    }
+    </script>
 </html>
