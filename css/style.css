@@ -22,6 +22,7 @@ h3 {
 	padding: 8px;
 	width: 70%;
 	margin: auto;
+	margin-top: 2%;
 }
 #content {
 	padding: 0 10%;
@@ -31,7 +32,7 @@ h3 {
 #footer {
 	margin-top: 5%;
 	padding-top: 3%;
-	padding-bottom:3%;
+	padding-bottom:5%;
 	width: 100%;
 	min-height: 100px;
 	background-color: #181F3C;
@@ -53,6 +54,9 @@ img.round {
 	border-radius: 50%;
 	border: 8px solid #fff;
 }
+img.photo {
+	box-shadow: 0px 0px 30px;
+}
 .center {
 	text-align: center;
 
@@ -67,9 +71,7 @@ img.projectImg {
 	display: block;
 	transition: width 1s cubic-bezier(0.59, -0.31, 0.31, 1.35);;
 }
-p {
-	text-align: justify;
-}
+
 hr {
 	margin: 2%;
 }
