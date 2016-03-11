@@ -1,4 +1,8 @@
 /* All style should go in this document. */
+* {
+	margin: 0px;
+	padding: 0px;
+}
 body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #E6F1FB;
@@ -25,6 +29,13 @@ h3 {
 	width: 65%;
 	margin: auto;
 }
+#footer {
+	width: 100%;
+	min-height: 100px;
+	background-color: #2A366B;
+	color: #AAB;
+	text-shadow: 0px 0px #fff;
+}
 h2.section {
 	margin-left: -16px;
 }
@@ -41,7 +52,7 @@ img.round {
 	text-align: center;
 
 }
-div.indent {
+span.indent {
 	text-indent: 40px;
 }
 img.projectImg {
