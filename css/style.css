@@ -1,84 +1,95 @@
 /* All style should go in this document. */
 * {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 body {
-	font-family: 'Open Sans', sans-serif;
-	background-color: #272342;
-	font-size: 20px;
-	color: #DECCEA;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #272342;
+  font-size: 20px;
+  color: #DECCEA;
 }
+
 h1 {
-	font-size: 38px;
+  font-size: 38px;
 }
+
 h2 {
-	font-size: 32px;
+  font-size: 32px;
 }
+
 h3 {
-	font-size: 28px;
+  font-size: 28px;
 }
+
 #header {
-	padding: 8px;
-	width: 70%;
-	margin: auto;
-	margin-top: 2%;
+  padding: 8px;
+  width: 70%;
+  margin: auto;
+  margin-top: 2%;
 }
+
 #content {
-	padding: 0 10%;
-	width: 65%;
-	margin: auto;
+  padding: 0 10%;
+  width: 65%;
+  margin: auto;
 }
+
 #footer {
-	margin-top: 5%;
-	padding-top: 3%;
-	padding-bottom:5%;
-	width: 100%;
-	min-height: 100px;
-	background-color: #111731;
-	color: #AAB;
+  margin-top: 5%;
+  padding-top: 3%;
+  padding-bottom:5%;
+  width: 100%;
+  min-height: 100px;
+  background-color: #111731;
+  color: #AAB;
 }
-div#footerContent {
-	display: block;
-	text-align: center;
+
+#footerContent {
+  display: block;
+  text-align: center;
 }
+
 h2.section {
-	margin-left: -16px;
+  margin-left: -16px;
 }
+
 img.center {
-	display: block;
-	margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
+
 img.round {
-	width: 200px;
-	border-radius: 50%;
-	border: 8px solid #fff;
+  width: 200px;
+  border-radius: 50%;
+  border: 8px solid #fff;
 }
-img.shadow {
-	box-shadow: 0px 0px 50px 10px;
-	color: #000;
+img.photo {
+  box-shadow: 0px 0px 50px 10px;
 }
+
 .center {
-	text-align: center;
+  text-align: center;
 
 }
+
 div.indent {
-	text-indent: 40px;
+  text-indent: 40px;
 }
-img.projectImg {
-	cursor: pointer;
-	width: 40%;
-	margin: auto;
-	display: block;
-	transition: width 1s cubic-bezier(0.59, -0.31, 0.31, 1.35);;
+img.project-img {
+  cursor: pointer;
+  width: 40%;
+  margin: auto;
+  display: block;
+  transition: width 1s cubic-bezier(0.59, -0.31, 0.31, 1.35);
 }
 
 hr {
-	margin: 2%;
+  margin: 2%;
 }
 
-hr.secDivider {
-	margin: 5%;
+hr.sec-divider {
+  margin: 5%;
 }
 a, a:visited {
 	color: #6460FF;
