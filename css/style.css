@@ -78,7 +78,7 @@ div.indent {
   text-indent: 40px;
 }
 
-img.projectImg {
+img.project-img {
   width: 40%;
   margin: auto;
   display: block;
@@ -89,7 +89,7 @@ hr {
   margin: 2%;
 }
 
-hr.secDivider {
+hr.sec-divider {
   margin: 5%;
 
 }
