@@ -8,7 +8,9 @@ body {
   background-color: #272342;
   font-size: 20px;
   color: #DECCEA;
+  text-shadow: 2px 2px #000;
   letter-spacing: 1px;
+  background: url('../res/black-paper.png');
 }
 
 h1 {
@@ -22,27 +24,32 @@ h2 {
 h3 {
   font-size: 28px;
 }
-
+p {
+  text-align: center;
+}
+div.main-wrapper {
+  background-color: rgba(16, 0, 69, 0.75);
+}
 #header {
-      padding: 5% 0;
-    width: 100%;
-    margin: auto;
-  background: linear-gradient(rgba(253, 133, 133, 0.51), #272342);
+  padding: 8% 0 4%;
+  width: 100%;
+  margin: auto;
+  background: linear-gradient(rgba(199, 82, 82, 0.3), rgba(0,0,0,0));
 }
 
 #content {
-  padding: 0 10%;
-  width: 65%;
+  padding: 2% 20% 2% 20%;
   margin: auto;
+  
 }
 
 #footer {
-  margin-top: 5%;
-  padding-top: 3%;
-  padding-bottom:5%;
+  margin-top: 4%;
+  padding-top: 8%;
+  padding-bottom: 8%;
   width: 100%;
   min-height: 100px;
-  background-color: #111731;
+  background-color: rgba(3, 9, 39, 0.64);
   color: #AAB;
 }
 
@@ -61,18 +68,22 @@ img.center {
 }
 
 img.round {
-  width: 200px;
   border-radius: 50%;
-  border: 8px solid #fff;
 }
 img.shadow{
   color: #000;
   box-shadow: 0px 0px 50px 10px;
+  transition: box-shadow 1s linear;
 }
-
+img.shadow:hover {
+  box-shadow: 0px 0px 80px 20px;
+}
+#profile-picture {
+  border: 8px solid #fff;
+  width: 200px;
+}
 .center {
   text-align: center;
-
 }
 
 div.indent {
@@ -81,31 +92,49 @@ div.indent {
 img.project-img {
   cursor: pointer;
   width: 40%;
-  margin: auto;
+  margin: 8% auto;
   display: block;
-  transition: width 1s cubic-bezier(0.59, -0.31, 0.31, 1.35);
+  transition: width 1s cubic-bezier(0.59, -0.31, 0.31, 1.35), box-shadow 0.5s ease;
+  box-shadow: 8px 8px 10px 4px rgba(0, 0, 0, 0.55);
+}
+img.project-img:hover {
+  box-shadow: 16px 16px 16px 8px rgba(0, 0, 0, 0.55);
 }
 
 div.divider, div.sec-divider {
-    background-image: url('../res/hr-triple.png');
+    background-image: url('../res/divider-triple.png');
     height: 45px;
     width: 160px;
     margin: 2% auto;
 }
 
 div.sec-divider {
-  background-image: url('../res/hr-triple.png');
+  background-image: url('../res/divider-triple.png');
   width: 47px;
 }
 a, a:visited {
 	color: #6460FF;
   font-weight: 100;
+  text-shadow: none;
+  transition: color 0.25s cubic-bezier(0.4, 0, 1, 1), text-shadow 0.5s ease;
+  text-decoration: none;
+  text-shadow: 0px 0px 8px #000;
+
+}
+a:hover {
+  color: #E91E63;
+  text-shadow: 0px 0px 30px #000;
+
 }
 .interactive:hover {
   position: relative;
-  top: -8px;
+  top: -4px;
   transition: top 1s ease-in;
 }
 .interactive {
   transition: top 1s ease-in;
+}
+::selection {
+  background-color: #E91E63;
+  text-shadow: 0px 0px 8px #FFA0CE;
 }
