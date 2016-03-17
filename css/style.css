@@ -8,6 +8,7 @@ body {
   background-color: #272342;
   font-size: 20px;
   color: #DECCEA;
+  letter-spacing: 1px;
 }
 
 h1 {
@@ -23,10 +24,10 @@ h3 {
 }
 
 #header {
-  padding: 8px;
-  width: 70%;
-  margin: auto;
-  margin-top: 2%;
+      padding: 5% 0;
+    width: 100%;
+    margin: auto;
+  background: linear-gradient(rgba(253, 133, 133, 0.51), #272342);
 }
 
 #content {
@@ -51,7 +52,7 @@ h3 {
 }
 
 h2.section {
-  margin-left: -16px;
+  text-align: center;
 }
 
 img.center {
@@ -98,4 +99,13 @@ div.sec-divider {
 }
 a, a:visited {
 	color: #6460FF;
+  font-weight: 100;
+}
+.interactive:hover {
+  position: relative;
+  top: -8px;
+  transition: top 1s ease-in;
+}
+.interactive {
+  transition: top 1s ease-in;
 }
