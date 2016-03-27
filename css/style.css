@@ -58,7 +58,7 @@ div.main-wrapper {
   color: #AAB;
 }
 
-#footerContent {
+#footer-content {
   display: block;
   text-align: center;
 }
@@ -140,6 +140,9 @@ a:hover {
 }
 .interactive {
   transition: top 1s ease-in;
+}
+div#icon-bar {
+  margin-top: 32px;
 }
 ::selection {
   background-color: #E91E63;
