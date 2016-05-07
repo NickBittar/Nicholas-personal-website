@@ -120,7 +120,7 @@ div.sec-divider {
   width: 47px;
 }
 a, a:visited {
-	color: #6460FF;
+  color: #72B0FF;
   font-weight: 100;
   text-shadow: none;
   transition: color 0.25s cubic-bezier(0.4, 0, 1, 1), text-shadow 0.5s ease;
