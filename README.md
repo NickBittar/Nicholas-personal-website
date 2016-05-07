@@ -1,1 +1,1 @@
-# nickbittar.github.io/Nicholas-personal-website/
+# nickbittar.github.io
